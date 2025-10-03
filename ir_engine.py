@@ -2,6 +2,7 @@
 
 import os
 import nltk
+nltk.data.path.append('nltk_data')
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
