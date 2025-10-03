@@ -1,0 +1,50 @@
+DEVANSHU MARKAM
++91 750-718-2288 - devanshuasm750@gmail.com - Portfolio - LinkedIn - GitHub
+Nagpur, Maharashtra, India
+PROFESSIONAL SUMMARY
+Innovative Information Technology student with a strong foundation in full-stack development and a keen interest in
+data-driven applications. Experienced in building web applications with the MERN and Java Spring stacks,
+complemented by projects in Natural Language Processing and Information Retrieval using Python. Eager to apply
+diverse technical skills to solve complex problems and contribute to a forward-thinking development team.
+EXPERIENCE
+OceanZen.in
+Full Stack Intern(Remote) September 2024 – Present
+–Contributed to the development of 3+ scalable microservices using Nest.js, improving API response times by 15% .
+–Analyzed and refactored dynamic UI components with Next.js, resulting in a 20% improvement in page load speeds.
+–Controlled and integrated 10+ RESTful API endpoints, enabling critical new features for the main application.
+ARP Informatrix Private Limited
+Full Stack Java Developer Intern March 2024 – August 2024
+–Created and deployed 4+ REST APIs using Spring Boot and Hibernate for internal customer systems.
+–Collaborated in Agile team of 5using Git and Postman, reducing bugs by 25% .
+–Devised a MySQL database schema and query optimization strategy; decreased data retrieval latency by 40% across 15 critical
+reporting tables used by over 100 users.
+TECHNICAL PROJECTS
+Full-Stack Personal Finance Application
+React, Spring Boot, MySQL [Repo]
+–Planned 5+ RESTful APIs using Spring Boot and Hibernate.
+–Designed responsive React.js frontend with Tailwind CSS, featuring dashboard, reporting, and budget planning modules.
+–Overhauled inefficient MySQL queries, diminishing dashboard load time by 40% and unlocking faster data rendering for
+end-users; this resulted in a performance boost for all active users.
+Natural Language Database Interface
+Python, Flask, NLTK, SQL [Repo]
+–Engineered a system translating natural language into SQL queries with over accuracy, reducing data retrieval time for
+non-technical users by .
+–Integrated JWT authentication with Spring Boot for managing 100+ user accounts and form access permissions.
+–Scheduled a real-time analytics dashboard processing 500+ submissions with graphical visualizations.
+Automatic Resume Matcher
+Python, NLTK, Scikit-learn, Vector Space Model [Repo]
+–Initiated an information retrieval system that automates the ranking of 1,000+ resumes , reducing manual screening time by
+over75% .
+–Established text pre-processing pipelines involving tokenization and inverted indexing, processing documents 10x faster than
+traditional methods.
+–Utilized the Vector Space Model with TF-IDF to calculate similarity, improving match relevance by 40% over basic keyword
+searching.
+TECHNICAL SKILLS
+Front-end: JAVA, React.js, Next.js, JavaScript ES6, HTML5, CSS3, Tailwind CSS, Material UI
+Back-end: MySQL, PostgreSQL, MongoDB, Node.js, Express, SupaBase
+Tools: Git, GitHub, Postman, Docker, AWS, Azure , Linux
+EDUCATION
+Yeshwantrao Chavan College of Engineering Nagpur, Maharashtra
+B.Tech in Information Technology 2026
+Kendriya Vidyalaya Sangathan Nagpur, Maharashtra
+HSC 2021
