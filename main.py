@@ -9,7 +9,10 @@ from ir_engine import SearchEngine
 
 # FastAPI app initialization
 app = FastAPI()
-origins = ["http://localhost:3000"]
+origins = ["http://localhost:3000",
+           "https://resume-matcher.onrender.com",
+           ]
+
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
 # Create a single, global instance of our search engine
