@@ -1,13 +1,9 @@
-# backend/main.py
-
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 
-# Import our new SearchEngine class
 from ir_engine import SearchEngine
 
-# FastAPI app initialization
 app = FastAPI()
 origins = ["http://localhost:3000",
            "https://resume-matcher-devanshu.onrender.com",
@@ -15,16 +11,15 @@ origins = ["http://localhost:3000",
 
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
-# Create a single, global instance of our search engine
+#create instance of search engine
 search_engine = SearchEngine()
 
+# --- Startup Event ---
 @app.on_event("startup")
 def startup_event():
     """On startup, load and index the resumes."""
     search_engine.load_and_index()
 
-# --- API Endpoints ---
-# These endpoints are now very simple. They just call the methods on our engine.
 
 @app.get("/")
 def read_root():

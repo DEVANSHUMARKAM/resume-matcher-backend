@@ -1,5 +1,3 @@
-# backend/ir_engine.py
-
 import os
 import nltk
 nltk.data.path.append('nltk_data')
@@ -9,7 +7,7 @@ import numpy as np
 
 class SearchEngine:
     def __init__(self):
-        # Initialize all the necessary components and data structures
+        #initialize all empty variables
         self.stemmer = nltk.stem.PorterStemmer()
         self.stopwords = set(nltk.corpus.stopwords.words('english'))
 
@@ -27,6 +25,7 @@ class SearchEngine:
             return stemmed_tokens
         return filtered_tokens
 
+    #Vector Space Model with TF-IDF
     def load_and_index(self, resume_dir="resumes"):
         """Loads resumes from a directory and builds all necessary indexes."""
         self.resume_filenames = [f for f in os.listdir(resume_dir) if f.endswith(".txt")]
