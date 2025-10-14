@@ -14,7 +14,6 @@ app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True
 #create instance of search engine
 search_engine = SearchEngine()
 
-# --- Startup Event ---
 @app.on_event("startup")
 def startup_event():
     """On startup, load and index the resumes."""
